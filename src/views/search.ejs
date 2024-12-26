@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поисковый сайт</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Сброс базовых отступов и шрифта */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Задний фон с градиентом и центровкой содержимого */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #6E45E2, #88D3CE);
+        }
+
+        /* Контейнер с тенью и легкой анимацией */
+        .search-container {
+            background-color: #fff;
+            padding: 2rem 3rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+            max-width: 600px;
+            width: 90%;
+        }
+        .search-container:hover {
+            transform: translateY(-4px);
+        }
+
+        /* Заголовок */
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        /* Сообщение об ошибке */
+        .error {
+            color: red;
+            margin-bottom: 1rem;
+        }
+
+        /* Форма */
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        /* Поле ввода */
+        input[type="text"] {
+            width: 250px;
+            padding: 0.6rem 1rem;
+            font-size: 1rem;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+        input[type="text"]:focus {
+            border-color: #6E45E2;
+        }
+
+        /* Кнопка */
+        button {
+            padding: 0.6rem 1.2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            background-color: #6E45E2;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        button:hover {
+            background-color: #5a37b5;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Адаптивность для мобилок: поля и кнопка на всю ширину */
+        @media (max-width: 480px) {
+            form {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            input[type="text"] {
+                width: 100%;
+            }
+            button {
+                width: 100%;
+            }
+        }
+
+        /* Ссылка "Назад" */
+        .back-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #6E45E2;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .back-link:hover {
+            color: #5a37b5;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <h1>Поиск</h1>
+        <% if (error) { %>
+            <p class="error"><%= error %></p>
+        <% } %>
+        <form action="/search" method="GET">
+            <input type="text" name="query" placeholder="Введите слово для поиска" value="<%= query %>" />
+            <button type="submit">Искать</button>
+        </form>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,625 @@
+Файлы для индексирования: [
+  '1.txt',          '2.txt',          '3.txt',
+  'document1.txt',  'document10.txt', 'document11.txt',
+  'document12.txt', 'document13.txt', 'document14.txt',
+  'document15.txt', 'document16.txt', 'document17.txt',
+  'document18.txt', 'document19.txt', 'document2.txt',
+  'document20.txt', 'document21.txt', 'document22.txt',
+  'document23.txt', 'document24.txt', 'document25.txt',
+  'document26.txt', 'document27.txt', 'document28.txt',
+  'document29.txt', 'document3.txt',  'document30.txt',
+  'document31.txt', 'document32.txt', 'document33.txt',
+  'document34.txt', 'document35.txt', 'document36.txt',
+  'document37.txt', 'document38.txt', 'document39.txt',
+  'document4.txt',  'document40.txt', 'document41.txt',
+  'document42.txt', 'document43.txt', 'document44.txt',
+  'document45.txt', 'document46.txt', 'document47.txt',
+  'document5.txt',  'document6.txt',  'document7.txt',
+  'document8.txt',  'document9.txt'
+]
+Содержимое файла "1.txt": это первый текстовый документ.
+
+Слова из файла "1.txt": [ 'это', 'первый', 'текстовый', 'документ' ]
+Содержимое файла "2.txt": второй текст содержит слово поиск.
+
+Слова из файла "2.txt": [ 'второй', 'текст', 'содержит', 'слово', 'поиск' ]
+Содержимое файла "3.txt": третий файл для тестирования.
+
+Слова из файла "3.txt": [ 'третий', 'файл', 'для', 'тестирования' ]
+Содержимое файла "document1.txt": это файл номер 1. он содержит тестовые данные для поиска.
+Слова из файла "document1.txt": [
+  'это',      'файл',
+  'номер',    '1',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document10.txt": это файл номер 10. он содержит тестовые данные для поиска.
+Слова из файла "document10.txt": [
+  'это',      'файл',
+  'номер',    '10',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document11.txt": это файл номер 11. он содержит тестовые данные для поиска.
+Слова из файла "document11.txt": [
+  'это',      'файл',
+  'номер',    '11',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document12.txt": это файл номер 12. он содержит тестовые данные для поиска.
+Слова из файла "document12.txt": [
+  'это',      'файл',
+  'номер',    '12',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document13.txt": это файл номер 13. он содержит тестовые данные для поиска.
+Слова из файла "document13.txt": [
+  'это',      'файл',
+  'номер',    '13',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document14.txt": это файл номер 14. он содержит тестовые данные для поиска.
+Слова из файла "document14.txt": [
+  'это',      'файл',
+  'номер',    '14',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document15.txt": это файл номер 15. он содержит тестовые данные для поиска.
+Слова из файла "document15.txt": [
+  'это',      'файл',
+  'номер',    '15',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document16.txt": это файл номер 16. он содержит тестовые данные для поиска.
+Слова из файла "document16.txt": [
+  'это',      'файл',
+  'номер',    '16',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document17.txt": это файл номер 17. он содержит тестовые данные для поиска.
+Слова из файла "document17.txt": [
+  'это',      'файл',
+  'номер',    '17',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document18.txt": это файл номер 18. он содержит тестовые данные для поиска.
+Слова из файла "document18.txt": [
+  'это',      'файл',
+  'номер',    '18',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document19.txt": это файл номер 19. он содержит тестовые данные для поиска.
+Слова из файла "document19.txt": [
+  'это',      'файл',
+  'номер',    '19',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document2.txt": это файл номер 2. он содержит тестовые данные для поиска.
+Слова из файла "document2.txt": [
+  'это',      'файл',
+  'номер',    '2',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document20.txt": это файл номер 20. он содержит тестовые данные для поиска.
+Слова из файла "document20.txt": [
+  'это',      'файл',
+  'номер',    '20',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document21.txt": это файл номер 21. он содержит тестовые данные для поиска.
+Слова из файла "document21.txt": [
+  'это',      'файл',
+  'номер',    '21',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document22.txt": это файл номер 22. он содержит тестовые данные для поиска.
+Слова из файла "document22.txt": [
+  'это',      'файл',
+  'номер',    '22',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document23.txt": это файл номер 23. он содержит тестовые данные для поиска.
+Слова из файла "document23.txt": [
+  'это',      'файл',
+  'номер',    '23',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document24.txt": это файл номер 24. он содержит тестовые данные для поиска.
+Слова из файла "document24.txt": [
+  'это',      'файл',
+  'номер',    '24',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document25.txt": это файл номер 25. он содержит тестовые данные для поиска.
+Слова из файла "document25.txt": [
+  'это',      'файл',
+  'номер',    '25',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document26.txt": это файл номер 26. он содержит тестовые данные для поиска.
+Слова из файла "document26.txt": [
+  'это',      'файл',
+  'номер',    '26',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document27.txt": это файл номер 27. он содержит тестовые данные для поиска.
+Слова из файла "document27.txt": [
+  'это',      'файл',
+  'номер',    '27',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document28.txt": это файл номер 28. он содержит тестовые данные для поиска.
+Слова из файла "document28.txt": [
+  'это',      'файл',
+  'номер',    '28',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document29.txt": это файл номер 29. он содержит тестовые данные для поиска.
+Слова из файла "document29.txt": [
+  'это',      'файл',
+  'номер',    '29',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document3.txt": это файл номер 3. он содержит тестовые данные для поиска.
+Слова из файла "document3.txt": [
+  'это',      'файл',
+  'номер',    '3',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document30.txt": это файл номер 30. он содержит тестовые данные для поиска.
+Слова из файла "document30.txt": [
+  'это',      'файл',
+  'номер',    '30',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document31.txt": это файл номер 31. он содержит тестовые данные для поиска.
+Слова из файла "document31.txt": [
+  'это',      'файл',
+  'номер',    '31',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document32.txt": это файл номер 32. он содержит тестовые данные для поиска.
+Слова из файла "document32.txt": [
+  'это',      'файл',
+  'номер',    '32',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document33.txt": это файл номер 33. он содержит тестовые данные для поиска.
+Слова из файла "document33.txt": [
+  'это',      'файл',
+  'номер',    '33',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document34.txt": это файл номер 34. он содержит тестовые данные для поиска.
+Слова из файла "document34.txt": [
+  'это',      'файл',
+  'номер',    '34',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document35.txt": это файл номер 35. он содержит тестовые данные для поиска.
+Слова из файла "document35.txt": [
+  'это',      'файл',
+  'номер',    '35',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document36.txt": это файл номер 36. он содержит тестовые данные для поиска.
+Слова из файла "document36.txt": [
+  'это',      'файл',
+  'номер',    '36',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document37.txt": это файл номер 37. он содержит тестовые данные для поиска.
+Слова из файла "document37.txt": [
+  'это',      'файл',
+  'номер',    '37',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document38.txt": это файл номер 38. он содержит тестовые данные для поиска.
+Слова из файла "document38.txt": [
+  'это',      'файл',
+  'номер',    '38',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document39.txt": это файл номер 39. он содержит тестовые данные для поиска.
+Слова из файла "document39.txt": [
+  'это',      'файл',
+  'номер',    '39',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document4.txt": это файл номер 4. он содержит тестовые данные для поиска.
+Слова из файла "document4.txt": [
+  'это',      'файл',
+  'номер',    '4',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document40.txt": это файл номер 40. он содержит тестовые данные для поиска.
+Слова из файла "document40.txt": [
+  'это',      'файл',
+  'номер',    '40',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document41.txt": это файл номер 41. он содержит тестовые данные для поиска.
+Слова из файла "document41.txt": [
+  'это',      'файл',
+  'номер',    '41',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document42.txt": это файл номер 42. он содержит тестовые данные для поиска.
+Слова из файла "document42.txt": [
+  'это',      'файл',
+  'номер',    '42',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document43.txt": это файл номер 43. он содержит тестовые данные для поиска.
+Слова из файла "document43.txt": [
+  'это',      'файл',
+  'номер',    '43',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document44.txt": это файл номер 44. он содержит тестовые данные для поиска.
+Слова из файла "document44.txt": [
+  'это',      'файл',
+  'номер',    '44',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document45.txt": это файл номер 45. он содержит тестовые данные для поиска.
+Слова из файла "document45.txt": [
+  'это',      'файл',
+  'номер',    '45',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document46.txt": это файл номер 46. он содержит тестовые данные для поиска.
+Слова из файла "document46.txt": [
+  'это',      'файл',
+  'номер',    '46',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document47.txt": это файл номер 47. он содержит тестовые данные для поиска.
+Слова из файла "document47.txt": [
+  'это',      'файл',
+  'номер',    '47',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document5.txt": это файл номер 5. он содержит тестовые данные для поиска.
+Слова из файла "document5.txt": [
+  'это',      'файл',
+  'номер',    '5',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document6.txt": это файл номер 6. он содержит тестовые данные для поиска.
+Слова из файла "document6.txt": [
+  'это',      'файл',
+  'номер',    '6',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document7.txt": это файл номер 7. он содержит тестовые данные для поиска.
+Слова из файла "document7.txt": [
+  'это',      'файл',
+  'номер',    '7',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document8.txt": это файл номер 8. он содержит тестовые данные для поиска.
+Слова из файла "document8.txt": [
+  'это',      'файл',
+  'номер',    '8',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Содержимое файла "document9.txt": это файл номер 9. он содержит тестовые данные для поиска.
+Слова из файла "document9.txt": [
+  'это',      'файл',
+  'номер',    '9',
+  'он',       'содержит',
+  'тестовые', 'данные',
+  'для',      'поиска'
+]
+Построенный инвертированный индекс: {
+  '1': [ 'document1.txt' ],
+  '2': [ 'document2.txt' ],
+  '3': [ 'document3.txt' ],
+  '4': [ 'document4.txt' ],
+  '5': [ 'document5.txt' ],
+  '6': [ 'document6.txt' ],
+  '7': [ 'document7.txt' ],
+  '8': [ 'document8.txt' ],
+  '9': [ 'document9.txt' ],
+  '10': [ 'document10.txt' ],
+  '11': [ 'document11.txt' ],
+  '12': [ 'document12.txt' ],
+  '13': [ 'document13.txt' ],
+  '14': [ 'document14.txt' ],
+  '15': [ 'document15.txt' ],
+  '16': [ 'document16.txt' ],
+  '17': [ 'document17.txt' ],
+  '18': [ 'document18.txt' ],
+  '19': [ 'document19.txt' ],
+  '20': [ 'document20.txt' ],
+  '21': [ 'document21.txt' ],
+  '22': [ 'document22.txt' ],
+  '23': [ 'document23.txt' ],
+  '24': [ 'document24.txt' ],
+  '25': [ 'document25.txt' ],
+  '26': [ 'document26.txt' ],
+  '27': [ 'document27.txt' ],
+  '28': [ 'document28.txt' ],
+  '29': [ 'document29.txt' ],
+  '30': [ 'document30.txt' ],
+  '31': [ 'document31.txt' ],
+  '32': [ 'document32.txt' ],
+  '33': [ 'document33.txt' ],
+  '34': [ 'document34.txt' ],
+  '35': [ 'document35.txt' ],
+  '36': [ 'document36.txt' ],
+  '37': [ 'document37.txt' ],
+  '38': [ 'document38.txt' ],
+  '39': [ 'document39.txt' ],
+  '40': [ 'document40.txt' ],
+  '41': [ 'document41.txt' ],
+  '42': [ 'document42.txt' ],
+  '43': [ 'document43.txt' ],
+  '44': [ 'document44.txt' ],
+  '45': [ 'document45.txt' ],
+  '46': [ 'document46.txt' ],
+  '47': [ 'document47.txt' ],
+  'это': [
+    '1.txt',          'document1.txt',  'document10.txt',
+    'document11.txt', 'document12.txt', 'document13.txt',
+    'document14.txt', 'document15.txt', 'document16.txt',
+    'document17.txt', 'document18.txt', 'document19.txt',
+    'document2.txt',  'document20.txt', 'document21.txt',
+    'document22.txt', 'document23.txt', 'document24.txt',
+    'document25.txt', 'document26.txt', 'document27.txt',
+    'document28.txt', 'document29.txt', 'document3.txt',
+    'document30.txt', 'document31.txt', 'document32.txt',
+    'document33.txt', 'document34.txt', 'document35.txt',
+    'document36.txt', 'document37.txt', 'document38.txt',
+    'document39.txt', 'document4.txt',  'document40.txt',
+    'document41.txt', 'document42.txt', 'document43.txt',
+    'document44.txt', 'document45.txt', 'document46.txt',
+    'document47.txt', 'document5.txt',  'document6.txt',
+    'document7.txt',  'document8.txt',  'document9.txt'
+  ],
+  'первый': [ '1.txt' ],
+  'текстовый': [ '1.txt' ],
+  'документ': [ '1.txt' ],
+  'второй': [ '2.txt' ],
+  'текст': [ '2.txt' ],
+  'содержит': [
+    '2.txt',          'document1.txt',  'document10.txt',
+    'document11.txt', 'document12.txt', 'document13.txt',
+    'document14.txt', 'document15.txt', 'document16.txt',
+    'document17.txt', 'document18.txt', 'document19.txt',
+    'document2.txt',  'document20.txt', 'document21.txt',
+    'document22.txt', 'document23.txt', 'document24.txt',
+    'document25.txt', 'document26.txt', 'document27.txt',
+    'document28.txt', 'document29.txt', 'document3.txt',
+    'document30.txt', 'document31.txt', 'document32.txt',
+    'document33.txt', 'document34.txt', 'document35.txt',
+    'document36.txt', 'document37.txt', 'document38.txt',
+    'document39.txt', 'document4.txt',  'document40.txt',
+    'document41.txt', 'document42.txt', 'document43.txt',
+    'document44.txt', 'document45.txt', 'document46.txt',
+    'document47.txt', 'document5.txt',  'document6.txt',
+    'document7.txt',  'document8.txt',  'document9.txt'
+  ],
+  'слово': [ '2.txt' ],
+  'поиск': [ '2.txt' ],
+  'третий': [ '3.txt' ],
+  'файл': [
+    '3.txt',          'document1.txt',  'document10.txt',
+    'document11.txt', 'document12.txt', 'document13.txt',
+    'document14.txt', 'document15.txt', 'document16.txt',
+    'document17.txt', 'document18.txt', 'document19.txt',
+    'document2.txt',  'document20.txt', 'document21.txt',
+    'document22.txt', 'document23.txt', 'document24.txt',
+    'document25.txt', 'document26.txt', 'document27.txt',
+    'document28.txt', 'document29.txt', 'document3.txt',
+    'document30.txt', 'document31.txt', 'document32.txt',
+    'document33.txt', 'document34.txt', 'document35.txt',
+    'document36.txt', 'document37.txt', 'document38.txt',
+    'document39.txt', 'document4.txt',  'document40.txt',
+    'document41.txt', 'document42.txt', 'document43.txt',
+    'document44.txt', 'document45.txt', 'document46.txt',
+    'document47.txt', 'document5.txt',  'document6.txt',
+    'document7.txt',  'document8.txt',  'document9.txt'
+  ],
+  'для': [
+    '3.txt',          'document1.txt',  'document10.txt',
+    'document11.txt', 'document12.txt', 'document13.txt',
+    'document14.txt', 'document15.txt', 'document16.txt',
+    'document17.txt', 'document18.txt', 'document19.txt',
+    'document2.txt',  'document20.txt', 'document21.txt',
+    'document22.txt', 'document23.txt', 'document24.txt',
+    'document25.txt', 'document26.txt', 'document27.txt',
+    'document28.txt', 'document29.txt', 'document3.txt',
+    'document30.txt', 'document31.txt', 'document32.txt',
+    'document33.txt', 'document34.txt', 'document35.txt',
+    'document36.txt', 'document37.txt', 'document38.txt',
+    'document39.txt', 'document4.txt',  'document40.txt',
+    'document41.txt', 'document42.txt', 'document43.txt',
+    'document44.txt', 'document45.txt', 'document46.txt',
+    'document47.txt', 'document5.txt',  'document6.txt',
+    'document7.txt',  'document8.txt',  'document9.txt'
+  ],
+  'тестирования': [ '3.txt' ],
+  'номер': [
+    'document1.txt',  'document10.txt', 'document11.txt',
+    'document12.txt', 'document13.txt', 'document14.txt',
+    'document15.txt', 'document16.txt', 'document17.txt',
+    'document18.txt', 'document19.txt', 'document2.txt',
+    'document20.txt', 'document21.txt', 'document22.txt',
+    'document23.txt', 'document24.txt', 'document25.txt',
+    'document26.txt', 'document27.txt', 'document28.txt',
+    'document29.txt', 'document3.txt',  'document30.txt',
+    'document31.txt', 'document32.txt', 'document33.txt',
+    'document34.txt', 'document35.txt', 'document36.txt',
+    'document37.txt', 'document38.txt', 'document39.txt',
+    'document4.txt',  'document40.txt', 'document41.txt',
+    'document42.txt', 'document43.txt', 'document44.txt',
+    'document45.txt', 'document46.txt', 'document47.txt',
+    'document5.txt',  'document6.txt',  'document7.txt',
+    'document8.txt',  'document9.txt'
+  ],
+  'он': [
+    'document1.txt',  'document10.txt', 'document11.txt',
+    'document12.txt', 'document13.txt', 'document14.txt',
+    'document15.txt', 'document16.txt', 'document17.txt',
+    'document18.txt', 'document19.txt', 'document2.txt',
+    'document20.txt', 'document21.txt', 'document22.txt',
+    'document23.txt', 'document24.txt', 'document25.txt',
+    'document26.txt', 'document27.txt', 'document28.txt',
+    'document29.txt', 'document3.txt',  'document30.txt',
+    'document31.txt', 'document32.txt', 'document33.txt',
+    'document34.txt', 'document35.txt', 'document36.txt',
+    'document37.txt', 'document38.txt', 'document39.txt',
+    'document4.txt',  'document40.txt', 'document41.txt',
+    'document42.txt', 'document43.txt', 'document44.txt',
+    'document45.txt', 'document46.txt', 'document47.txt',
+    'document5.txt',  'document6.txt',  'document7.txt',
+    'document8.txt',  'document9.txt'
+  ],
+  'тестовые': [
+    'document1.txt',  'document10.txt', 'document11.txt',
+    'document12.txt', 'document13.txt', 'document14.txt',
+    'document15.txt', 'document16.txt', 'document17.txt',
+    'document18.txt', 'document19.txt', 'document2.txt',
+    'document20.txt', 'document21.txt', 'document22.txt',
+    'document23.txt', 'document24.txt', 'document25.txt',
+    'document26.txt', 'document27.txt', 'document28.txt',
+    'document29.txt', 'document3.txt',  'document30.txt',
+    'document31.txt', 'document32.txt', 'document33.txt',
+    'document34.txt', 'document35.txt', 'document36.txt',
+    'document37.txt', 'document38.txt', 'document39.txt',
+    'document4.txt',  'document40.txt', 'document41.txt',
+    'document42.txt', 'document43.txt', 'document44.txt',
+    'document45.txt', 'document46.txt', 'document47.txt',
+    'document5.txt',  'document6.txt',  'document7.txt',
+    'document8.txt',  'document9.txt'
+  ],
+  'данные': [
+    'document1.txt',  'document10.txt', 'document11.txt',
+    'document12.txt', 'document13.txt', 'document14.txt',
+    'document15.txt', 'document16.txt', 'document17.txt',
+    'document18.txt', 'document19.txt', 'document2.txt',
+    'document20.txt', 'document21.txt', 'document22.txt',
+    'document23.txt', 'document24.txt', 'document25.txt',
+    'document26.txt', 'document27.txt', 'document28.txt',
+    'document29.txt', 'document3.txt',  'document30.txt',
+    'document31.txt', 'document32.txt', 'document33.txt',
+    'document34.txt', 'document35.txt', 'document36.txt',
+    'document37.txt', 'document38.txt', 'document39.txt',
+    'document4.txt',  'document40.txt', 'document41.txt',
+    'document42.txt', 'document43.txt', 'document44.txt',
+    'document45.txt', 'document46.txt', 'document47.txt',
+    'document5.txt',  'document6.txt',  'document7.txt',
+    'document8.txt',  'document9.txt'
+  ],
+  'поиска': [
+    'document1.txt',  'document10.txt', 'document11.txt',
+    'document12.txt', 'document13.txt', 'document14.txt',
+    'document15.txt', 'document16.txt', 'document17.txt',
+    'document18.txt', 'document19.txt', 'document2.txt',
+    'document20.txt', 'document21.txt', 'document22.txt',
+    'document23.txt', 'document24.txt', 'document25.txt',
+    'document26.txt', 'document27.txt', 'document28.txt',
+    'document29.txt', 'document3.txt',  'document30.txt',
+    'document31.txt', 'document32.txt', 'document33.txt',
+    'document34.txt', 'document35.txt', 'document36.txt',
+    'document37.txt', 'document38.txt', 'document39.txt',
+    'document4.txt',  'document40.txt', 'document41.txt',
+    'document42.txt', 'document43.txt', 'document44.txt',
+    'document45.txt', 'document46.txt', 'document47.txt',
+    'document5.txt',  'document6.txt',  'document7.txt',
+    'document8.txt',  'document9.txt'
+  ]
+}
+Сервер запущен на http://localhost:8080

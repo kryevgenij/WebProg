@@ -8,6 +8,11 @@ const PORT = 8080;
 // Пути к папкам
 const documentsPath = path.join(__dirname, "../documents");
 const publicPath = path.join(__dirname, "../public");
+
+// Установка EJS в качестве шаблонизатора
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
 let invertedIndex = {};
 
 // Функция для построения инвертированного индекса
@@ -35,7 +40,7 @@ function buildIndex(directory) {
     });
   
     console.log("Построенный инвертированный индекс:", invertedIndex);
-  }
+}
 
 // Построение индекса при запуске сервера
 buildIndex(documentsPath);
@@ -44,17 +49,18 @@ buildIndex(documentsPath);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(publicPath)); // Отдаем файлы из папки public
 
+// Главная страница поиска
+app.get('/', (req, res) => {
+    res.render('search', { error: null, query: '' });
+});
+
 // Обработка поиска
 app.get("/search", (req, res) => {
     const query = req.query.query.toLowerCase().trim(); // Извлечение и очистка строки запроса
     const words = query.match(/[а-яёa-z0-9]+/gi); // Разделение строки на слова
   
     if (!words || words.length === 0) {
-        res.send(`
-            <p>Введите одно или два слова для поиска.</p>
-            <a href="/">Назад</a>
-        `);
-        return;
+        return res.render('search', { error: 'Введите одно или два слова для поиска.', query: '' });
     }
   
     let result = [];
@@ -73,29 +79,16 @@ app.get("/search", (req, res) => {
     }
   
     if (result.length === 0) {
-        res.send(`
-            <p>Ни одного совпадения для запроса "${query}" не найдено.</p>
-            <a href="/">Назад</a>
-        `);
+        return res.render('search', { error: `Ни одного совпадения для запроса "${query}" не найдено.`, query });
     } else {
         // Формируем результат с содержимым файлов
-        const fileList = result
-            .map((file) => {
-                const filePath = path.join(documentsPath, file);
-                const content = fs.readFileSync(filePath, "utf8");
-                return `
-                    <li>
-                        <strong>${file}</strong>
-                        <pre>${content}</pre>
-                    </li>`;
-            })
-            .join("");
+        const fileList = result.map((file) => {
+            const filePath = path.join(documentsPath, file);
+            const content = fs.readFileSync(filePath, "utf8");
+            return { name: file, content };
+        });
   
-        res.send(`
-            <p>Результаты поиска для запроса "${query}":</p>
-            <ul>${fileList}</ul>
-            <a href="/">Назад</a>
-        `);
+        return res.render('results', { query, fileList });
     }
 });
 
@@ -103,10 +96,4 @@ app.get("/search", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Сервер запущен на http://localhost:${PORT}`);
 });
-
-
-
-
-
-
 

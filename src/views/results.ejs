@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результаты поиска</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            background: linear-gradient(135deg, #6E45E2, #88D3CE);
+            padding: 2rem 0;
+        }
+
+        .results-container {
+            background-color: #fff;
+            padding: 2rem 3rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            max-width: 800px;
+            width: 90%;
+        }
+        .results-container:hover {
+            transform: translateY(-4px);
+        }
+
+        /* Заголовок */
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        /* Список результатов */
+        ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        li {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        /* Название файла */
+        li strong {
+            display: block;
+            font-size: 1.2rem;
+            color: #6E45E2;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Содержимое файла */
+        pre {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        /* Ссылка "Назад" */
+        .back-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #6E45E2;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .back-link:hover {
+            color: #5a37b5;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 480px) {
+            .results-container {
+                padding: 1.5rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="results-container">
+        <h1>Результаты поиска для запроса "<%= query %>":</h1>
+        <ul>
+            <% fileList.forEach(function(file) { %>
+                <li>
+                    <strong><%= file.name %></strong>
+                    <pre><%= file.content %></pre>
+                </li>
+            <% }); %>
+        </ul>
+        <a href="/" class="back-link">Назад</a>
+    </div>
+</body>
+</html>
+
